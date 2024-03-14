@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    color: #222831;
+    background-color: #EEEEEE;
+}
+
+.title {
+    font-size: 7em;
+}
+
+.button {
+    background-color: #222831;
+    color: #EEEEEE;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.how {
+    display: flex;
+    padding: 3rem;
+    justify-content: center; /* Horizontally center the columns */
+}
+
+
+.column {
+    flex-grow: 1;
+    /* Optionally, you can add some styling */
+    border: 1rem solid #222831;
+    border-radius: 2rem;
+    padding: 20px;
+    height: 20rem;
+    margin: 0 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+
+  .num {
+    font-size: 3em;
+  }
+  .howtitle {
+    font-size: 2em;
+  }
+
+  .desc {
+    font-size: 1.1em;
+  }
+
+  .fineprint {
+    color: rgb(184, 184, 184);
+  }
